@@ -22,8 +22,6 @@ type Car = {
     model_name: string;
 	options: Car_Optoin;
 };
-
-
   
   function carMaker(manufacturer: string, model_name: string, color: string, year?: number, chassis_num?: number): Car {
     
